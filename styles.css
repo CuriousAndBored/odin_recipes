@@ -1,0 +1,30 @@
+body{
+    font-family: "Courier New", "Sans serif";
+    background-color: hsl(82, 56%, 85%);
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    background-color: rgb(201, 13, 13);
+    color: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    width: 50%;
+}
+.image, .description, .heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ul, h4{
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+}
+a{
+    color: navy;
+}
+a:hover{
+    color: rgb(5, 154, 112);
+}
