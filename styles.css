@@ -12,9 +12,15 @@ h1{
     width: 50%;
 }
 .image, .description, .heading{
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+img{
+    width: 50%;
+    height: auto;
+    /* object-fit: contain; */
 }
 ul, h4{
     font-size: 20px;
